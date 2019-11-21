@@ -1,0 +1,130 @@
+
+header {
+  width: 1200px;
+  height: 65.67px;
+  background: pink;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+header #logo img {
+  width: 100px;
+  height: 35px;
+  padding-top: 15.33px;
+  float: left;
+}
+
+header #logo2 {
+  margin-left: 20px;
+  float: left;
+  line-height: 65.67px;
+  color: #333;
+}
+
+header .headerRight {
+  float: right;
+  
+  height:65px;
+  width:500px;
+}
+
+header .headerRight .free {
+  float: left;
+  width:150px;
+  height:20px;
+  text-align: center;
+  margin-top:22px;
+  background: #ffa000;
+  border-radius: 3px;
+  /* color: #fff; */
+  font-size: 14px; 
+  /* padding: 3px 15px; */
+}
+
+header .headerRight .free a {
+  color: white;
+}
+header .solid{
+  margin-top: 22px;
+  margin-left: 15px;
+  height:20px;
+  width:1px;
+  background: #ccc;
+  float: left;
+}
+header .onload{
+  height:20px;
+  width:80px;
+  border:1px solid#ccc;
+  border-radius: 4px;
+  float: left;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+header .headerRight .qyApp {
+ margin-top:22px;
+ border-left:1px solid #ccc;
+ padding-left: 10px;
+  width: 100px;
+  float:right;
+  cursor: pointer;
+
+  
+}
+header .headerRight .zlApp{
+  /* height:65px; */
+  width:100px;
+  margin-top:25px;
+  line-height: 16px;
+  float: right;
+  cursor: pointer;
+
+  
+}
+.banner{
+  background: url(../images/banner.jpg) no-repeat 50%;
+    height: 568px;
+    min-width: 1200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.offer{
+  background: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 13px 31px 0 rgba(44,142,215,.3);
+  box-shadow: 0 13px 31px 0 rgba(44,142,215,.3);
+  display: inline-block;
+  min-height: 250px;
+  padding: 38px 28px 21px;
+  width: 250px;
+  position: absolute;
+  top:180px;
+  right:40px;
+}
+
+.headerRight .free:hover{
+  background-color:rgb(128, 47, 0)
+}
+.headerRight .onload:hover{
+  border-color: blue;
+  color: blue;
+}
+.offer h3{
+  background: #fff;
+  color: #333;
+  display: inline-block;
+  font-size: 18px;
+  padding: 0 15px;
+  margin-left: 70px;
+}
+.offer img{
+  margin-top:20px;
+  width:250px;
+  height:26px;
+}
